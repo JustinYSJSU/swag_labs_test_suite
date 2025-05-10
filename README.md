@@ -9,6 +9,12 @@ An automated test suite for the e-commerce site [Swag Labs](https://www.saucedem
   - Shopping Cart
   - Item Sorting
 
+## Test Information
+- Date / Site Source: [Swag Labs](https://www.saucedemo.com/)
+- Authentication Credentials
+  - Username: standard_user
+  - password: secret_sauce
+
 ## Test Suite Coverage
 - Authentication
   - Login pass (correct username / password)
