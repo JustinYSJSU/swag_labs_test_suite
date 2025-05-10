@@ -9,7 +9,7 @@ An automated test suite for the e-commerce site [Swag Labs](https://www.saucedem
   - Shopping Cart
   - Item Sorting
 
-## Test Coverage
+## Test Suite Coverage
 - Authentication
   - Login pass (correct username / password)
   - Login fail (incorrect username, correct password)
@@ -17,4 +17,11 @@ An automated test suite for the e-commerce site [Swag Labs](https://www.saucedem
   - Login fail (no username, correct password)
   - Login fail (correct username, no password)
   - Logout pass
+
+- Shopping Cart
+  - Add item to empty cart
+  - Add item to a non-empty cart
+  - Remove single item from cart with a single item
+  - Remove single item from cart with multiple items
+    
 
