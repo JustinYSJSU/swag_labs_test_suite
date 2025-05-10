@@ -4,7 +4,7 @@ An automated test suite for the e-commerce site [Swag Labs](https://www.saucedem
 
 ## Overview
 - Comprehensive test suite written using Python, Selenium, Pytest
-- Unit tests for the following site functionalities
+- Automated test coverage for the following site functionalities
   - Authentication 
   - Shopping Cart
   - Item Sorting
