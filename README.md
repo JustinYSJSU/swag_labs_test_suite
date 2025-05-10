@@ -23,5 +23,11 @@ An automated test suite for the e-commerce site [Swag Labs](https://www.saucedem
   - Add item to a non-empty cart
   - Remove single item from cart with a single item
   - Remove single item from cart with multiple items
+
+- Item Sorting
+  - Sort by name A - Z
+  - Sort by name Z - A
+  - Sort by price low - high
+  - Sort by price high - low
     
 
