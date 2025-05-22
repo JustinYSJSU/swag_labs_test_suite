@@ -27,7 +27,7 @@ class TestSwagLabsLoginLogout:
         login_page.enter_password("secret_sauce")
         login_page.submit_login()
 
-        # assert driver.find_element(By.ID, "logout_sidebar_link").is_displayed()
+        assert driver.find_element(By.ID, "inventory_container").is_displayed()
 
     def test_login_failure_incorrect_username(self, driver):
         """

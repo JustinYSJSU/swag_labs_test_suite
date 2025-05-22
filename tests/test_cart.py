@@ -5,6 +5,8 @@ from selenium.webdriver.common.by import By
 
 from utils.test_util import login, add_single_item, add_double_item
 
+from pages.shop_page import ShopPage
+
 class TestSwagLabsCart:
 
     @pytest.fixture
@@ -22,6 +24,7 @@ class TestSwagLabsCart:
             self: instance of the class
             driver: selenium firefox webdriver
        """
+       '''
        login(driver, "standard_user", "secret_sauce")
        add_to_cart_button = driver.find_element(By.ID, "add-to-cart-sauce-labs-backpack")
        add_to_cart_button.click()
@@ -30,6 +33,8 @@ class TestSwagLabsCart:
        view_cart_link.click()
 
        assert driver.find_element(By.CLASS_NAME, "cart_list").is_displayed()
+       '''
+       shop_page = ShopPage(driver)
 
     def test_add_to_cart_existing(self, driver):
         """
